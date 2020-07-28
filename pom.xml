@@ -13,6 +13,8 @@
     <modules>
         <module>spring-boot-hello</module>
         <module>spring-boot-helloworld</module>
+        <module>spring-boot-web</module>
+        <module>spring-boot-redis</module>
     </modules>
 
     <build>

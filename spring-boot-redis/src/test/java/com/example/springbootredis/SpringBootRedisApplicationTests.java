@@ -8,7 +8,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 class SpringBootRedisApplicationTests {
-
+//
     @Test
     void contextLoads() {
         System.out.println("hello web");

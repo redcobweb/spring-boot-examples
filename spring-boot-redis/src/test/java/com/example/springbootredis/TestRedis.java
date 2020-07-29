@@ -36,8 +36,8 @@ public class TestRedis {
         ValueOperations<String,User> operations = redisTemplate.opsForValue();
         operations.set("com.example.aa",user);
         operations.set("com.example.aa1",user,1, TimeUnit.SECONDS);
-        Thread.sleep(1000);
-        redisTemplate.delete("com.example.aa1");
+        Thread.sleep(500);
+        //redisTemplate.delete("com.example.aa1");
         Boolean hasKey = redisTemplate.hasKey("com.example.aa1");
         if (hasKey){
             System.out.println("true");
